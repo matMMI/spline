@@ -20,7 +20,6 @@ export default function Home() {
           Spline
         </a>
       </h1>
-
       <div className="spline m-8 rounded-3xl h-">
         <Spline />
       </div>

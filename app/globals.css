@@ -44,7 +44,7 @@ body {
 @media (max-width: 768px) {
   .spline canvas {
     border-radius: 20px;
-    height: 50vh !important;
+    height: 60vh !important;
   }
 }
 
