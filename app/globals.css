@@ -41,4 +41,11 @@ body {
   height: 70vh !important;
 }
 
+@media (max-width: 768px) {
+  .spline canvas {
+    border-radius: 20px;
+    height: 50vh !important;
+  }
+}
+
 /* Modal  */
