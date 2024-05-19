@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  overflow: hidden;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -31,3 +35,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.spline canvas {
+  border-radius: 20px;
+  height: 70vh !important;
+}
+
+/* Modal  */
